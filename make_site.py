@@ -64,7 +64,7 @@ def make_index(directory):
     index.close()
 
 def svn_update():
-  os.system("/usr/bin/svn up")
+  os.system("/usr/bin/svn up --username mortenlj --password 1024epcy")
   
 if __name__ == "__main__":
   os.chdir("/var/www/localhost/htdocs")
