@@ -56,13 +56,17 @@ def files_to_list(files):
 def make_index(directory):
   logfile.write("make_index\n")
   files = list()
-  indextime = os.path.getmtime(os.path.join(directory,"index.rst"))
+  indexfile = os.path.join(directory,"index.rst")
+  if os.path.exists(indexfile):
+    indextime = os.path.getmtime(indexfile)
+  else:
+    indextime = 0
   for f in os.listdir(directory):
     name, ext = os.path.splitext(f)
     if ext == ".html" and os.path.getmtime(os.path.join(directory,f)) > indextime:
       files.append( (extract_title(os.path.join(directory,f)), f) )
   if len(files) > 0:
-    index = open(os.path.join(directory,"index.rst"),"w")
+    index = open(indexfile,"w")
     text = TEMPLATE % ( directory.title(),
                         files_to_list(files),
                         time.strftime() )
@@ -70,7 +74,7 @@ def make_index(directory):
     index.close()
 
 def svn_update():
-  logfile.write("svn_update")
+  logfile.write("svn_update\n")
   os.system("/usr/bin/svn up --username mortenlj --password 1024epcy")
   
 if __name__ == "__main__":
