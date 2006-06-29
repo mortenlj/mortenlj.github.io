@@ -3,7 +3,6 @@
 """Things to do after a commit to the webrepo.
 
 This script is run by the commit-hook.
-
 """
 
 import os
