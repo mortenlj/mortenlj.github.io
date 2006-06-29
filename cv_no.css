@@ -1,0 +1,27 @@
+BODY {
+    background: white;
+    padding: 2em;
+    font-family: serif;
+    font-size: normal;
+}
+.persopp {
+    text-align: left;
+    padding-right: 1em;
+}
+
+H1 {
+    font-family: serif;
+    font-size: x-large;
+}
+H2 {
+    font-family: serif;
+    font-size: large;
+}
+H3 {
+    font-family: serif;
+    font-size: medium;
+}
+H4 {
+    font-family: sans-serif;
+    font-weight: normal;
+}
