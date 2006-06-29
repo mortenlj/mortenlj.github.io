@@ -8,7 +8,7 @@ This script is run by the commit-hook.
 import os
 import time
 
-rst2html = "rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+rst2html = "/usr/bin/rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 
 def make_html():
   for root, dirs, files in os.walk("."):
@@ -64,9 +64,10 @@ def make_index(directory):
     index.close()
 
 def svn_update():
-  os.system("svn up")
+  os.system("/usr/bin/svn up")
   
 if __name__ == "__main__":
+  os.chdir("/var/www/localhost/htdocs")
   svn_update()
   make_index("musings")
   make_html()
