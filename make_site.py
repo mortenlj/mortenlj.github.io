@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""Things to do after a commit to the webrepo."""
+"""Things to do after a commit to the webrepo.
+
+This script is run by the commit-hook.
+"""
 
 import os
 import time
