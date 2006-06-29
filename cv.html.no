@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+  <HTML>
+    <HEAD>
+      <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+      <TITLE>Curriculum Vitae</TITLE>
+      <LINK HREF="cv_no.css" REL="stylesheet" TYPE="text/css">
+    </HEAD>
+    <BODY>
+      <H1>Curriculum Vitae</H1>
+      <H2>Morten Lied Johansen</H2>
+        <DIV class="addresse">
+            Dovresvingen 2<BR>
+            1184 Oslo<BR>
+        </DIV>
+        <DIV class="tlf">
+            Mobil: 92491982<BR>
+        </DIV>
+        <ADDRESS><A HREF="mailto:mortenjo@ifi.uio.no">mortenjo@ifi.uio.no</A></ADDRESS>
+        <A CLASS="website" HREF="http://ibidem.homeip.net">http://ibidem.homeip.net</A>
+
+
+        <H3>Personopplysninger</H3>
+        
+        <TABLE class="persopp">
+	    <TR><TH class="persopp" SCOPE="row">Sivilstand</TH><TD>Ugift</TD></TR>
+        <TR><TH class="persopp" SCOPE="row">Nasjonalitet</TH><TD>Norsk</TD></TR>
+        <TR><TH class="persopp" SCOPE="row">F&oslash;dselsdato</TH><TD>26. august 1978</TD></TR>
+        <TR><TH class="persopp" SCOPE="row">F&oslash;dested</TH><TD>Oslo</TD></TR>
+        </TABLE>
+
+	    <H3>Arbeidserfaring</H3>
+	  
+	    <DL class="jobb">
+            <DT>2005 - idag: FunCom AS</DT>
+                <DD>Programmerer på Drømmefall.</DT>
+            <DT>1999 - 2005: Universitetet i Oslo, Matematisk-Naturvitenskapelig Fakultet, IT-avdelingen</DT>
+                <DD>Terminalvakt ved studentenes PC-Stuer.</DD>
+            <DT>2000: DnB, ferievikar</DT>
+                <DD>Inntasting av data for testing av IT-system.</DD>
+            <DT>1995 - 1999: Norges Rederiforbund, ekstrahjelp</DT>
+    	        <DD>Lagt inn statistiske data fra enkelte av forbundets sp&oslash;rreunders&oslash;kelser.</DD>
+    	    <DT>1999: Merkantildata, ferievikar</DT>
+        	    <DD>Forefallende kontorarbeid.</DD>
+        </DL>
+	  
+	
+	    <H3>Utdannelse</H3>
+
+	    <H4>Høsten 2001 - Våren 2005: Cand. Scient. Institutt for Informatikk, Universitetet i Oslo.</H4>
+            <P>Utviklet programmet <A HREF="http://ibidem.homeip.net/PyMek">PyMek</A>, et make-lignende
+               program for software-bygging. Brukte Python som implementasjonsspråk.</P>
+        <DL class="edu">
+            <DT>INF310</DT>
+                <DD>Kompilatorteknikk. Teknikker for syntaktisk analyse, semantisk analyse og
+            	kodegenerering, samt metoder for &aring; organisere dataene under
+            	utf&oslash;relsen.</DD>
+            <DT>IN-ID</DT>
+                <DD>Informasjonsdesign. En gjennomgang av de grunnleggende sidene av
+            	informasjonsdesign.</DD>
+            <DT>IN-DIW</DT>
+                <DD>Interaktive web-tjenester. En gjenomgang av teknologier knyttet til interaktive
+                webtjenester, og bruken av disse.</DD>
+        </DL>
+	  
+	    <H4>Høsten 1997 - Våren 2003: Cand. Mag. Matematisk-Naturvitenskapelig Fakultet, Universitetet i Oslo.</H4>
+        <DL class="edu">
+            <DT>Ex. Phil.</DT>
+                <DD>Forberedende</DD>
+            <DT>MA100</DT>
+                <DD>Grunnkurs matematikk</DD>
+            <DT>MA114</DT>
+                <DD>Element&aelig;r line&aelig;r algebra og flervariabel analyse</DD>
+            <DT>MA108</DT>
+                <DD>Endelig matematikk</DD>
+            <DT>A101</DT>
+                <DD>Grunnkurs Astronomi</DD>
+            <DT>ST005</DT>
+                <DD>Innf&oslash;ring i anvendt statistikk</DD>
+            <DT>GF201</DT>
+                <DD>L&oslash;sning av geofysiske problemstillinger ved bruk av Fortran</DD>
+            <DT>HUMIT1730</DT>
+                <DD>Diskutere og definere hypermedier, multimedier, interaktive medier og andre begreper
+                som blir mer og mer vanlige i vår stadige økende bruk av datamaskiner som redskap.</DD>
+            <DT>IN105</DT>
+                <DD>Innf&oslash;ring i programmering og bruk av datamaskinene.
+                Grunnleggende tankegang n&aring;r man programmerer. Objektorientering.</DD>
+            <DT>IN104</DT>
+                <DD>Utvikling av en st&oslash;rre applikasjon, i mitt tilfelle en b&oslash;rskurs plotter i form av en
+                Java-applet.</DD>
+            <DT>IN115</DT>
+                <DD>Gjennomgang av datastrukturer og algoritmer. Tar for seg en del om effektivisering og
+                recursivitet.</DD>
+            <DT>INF120</DT>
+                <DD>Oversetting fra naturlige språk til utsagnslogikk og predikatlogikk. Bruk av utledninger til å
+                begrunne logisk konsekvens og gyldighet.</DD>
+    	    <DT>IN147</DT>
+                <DD>Gjennomgang av samvirke mellom program- og maskinvare, fra lavniv&aring; assembler til C. L&aelig;rte
+                om hvordan maskinen er bygd opp og hvordan det virker.</DD>
+            <DT>IN102</DT>
+                <DD>Utvikling av en st&oslash;rre applikasjon i grupper. Vi skrev en kompilator for det minimale
+                spr&aring;ket minila.</DD>
+            <DT>IN166</DT>
+                <DD>Samspillet mellom IT og samfunnet. Hvordan b&oslash;r man g&aring; frem for &aring; utvikle programvare for
+                mennesker. Hvilke ting er viktige &aring; ta hensyn til.</DD>
+    	    <DT>IN211</DT>
+                <DD>Gjennomgang av en del teoretiske og praktiske sider ved programmeringsspr&aring;k, hvordan de
+                bygges opp, defineres og implementeres.</DD>
+            <DT>IN217</DT>
+                <DD>Programspesifikasjon og -verifikasjon. Metoder for å fastslå et programs gyldighet.</DD>
+            <DT>IN228</DT>
+                <DD>Innf&oslash;ring i bruk av skriptespr&aring;k for &aring; utvikle applikasjoner, gjerne ved &aring; sy sammen
+                eksisterende programmer. Forst&aring;else av muligheter og begrensinger i skripting.</DD>
+            <DT>IN270</DT>
+                <DD>Kommunikasjon mellom datamaskiner. Forskjellige nettverksteknologier og hvordan de
+                brukes.</DD>
+        </DL>
+
+	    <H4>1994 - 1997: Lambertseter Videreg&aring;ende skole</H4>
+	      <P class="edu">Tre&aring;rig allmennfaglig linje
+		  etter Reform 94, med hovedvekt p&aring; fysikk og
+		  naturfag matematikk.</P>
+	  
+	
+	    <H3>Interesser og aktiviteter</H3>
+	  
+        <UL>
+            <LI>1993 - idag: Spiller basketball i Nordstrand Basketball Club.</LI>
+            <LI>1999 - 2001: Trener for Gutter f&oslash;dt 1984 eller senere i Nordstrand Basketball Club</LI>
+            <LI>2001 - idag: Webutvikler/Webmaster for <A HREF="http://nordstrand.basket.no">
+            Nordstrand Basketball Club</A></LI>
+            <LI>1997 - 2004: Medlem i Krokhol Golfklubb.</LI>
+        </UL>
+	  
+	
+	
+	<H3>Andre opplysninger</H3>
+        <P>Jeg lærte først å programmere i C på egen hånd. Har også gjort noe programmering i 
+           C++, da spesiellt Visual C++.</P>  
+        <P>Mitt lag kom på andreplass i Ifi-mesterskapet i Programmering h&oslash;sten 1999.</P>
+        <P>En del av fagene p&aring; universitetet ble gjennomf&oslash;rt i spr&aring;ket Simula, men
+           undervisningen var allikevel generell for programmering.</P>
+        <P>I senere tid har jeg mest programmert Java, og Python. Jeg jobber med &aring; forbedre meg
+           ytterligere i begge disse spr&aring;kene.</P>
+        <P>Jeg har avtjent verneplikten.</P>
+    </BODY>
+  </HTML>
+  

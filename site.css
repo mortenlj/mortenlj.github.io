@@ -1,0 +1,33 @@
+@import url(voidspace.css);
+
+div.attention, div.caution, div.danger, div.error, div.hint,
+div.important, div.note, div.tip, div.warning, div.admonition,
+div.admonition-todo {
+  background-color: lightgrey
+}
+
+table {
+  margin-bottom: 0.5em;
+  width: 90% }
+ 
+body {
+  margin: 2em }
+
+dt {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  margin-bottom: 0em }
+
+dd {
+  margin-top: 0em ;
+  margin-bottom: 1em }
+
+h1.title, h2.subtitle, h1, h2, h3, h4, h5, h6 {
+  text-align: left }
+
+h1.title {
+  font-size: 300% }
+
+hr {
+  text-align: left }
