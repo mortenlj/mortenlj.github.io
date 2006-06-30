@@ -69,7 +69,7 @@ def make_index(directory):
     index = open(indexfile,"w")
     text = TEMPLATE % ( directory.title(),
                         files_to_list(files),
-                        time.strftime() )
+                        time.asctime() )
     index.write( text )
     index.close()
     name, ext = os.path.splitext(indexfile)
