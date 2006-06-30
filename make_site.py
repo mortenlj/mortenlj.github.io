@@ -72,11 +72,14 @@ def make_index(directory):
                         time.strftime() )
     index.write( text )
     index.close()
+    name, ext = os.path.splitext(indexfile)
+    newname = name + ".html"
+    os.system(rst2html % (indexfile, newname))
 
 if __name__ == "__main__":
   try:
     os.chdir("/var/www/localhost/htdocs")
-    make_index("musings")
     make_html()
+    make_index("musings")
   except:
     logfile.write(traceback.format_exc())
