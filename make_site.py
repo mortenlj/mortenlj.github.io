@@ -5,7 +5,6 @@
 This script is run by the commit-hook.
 """
 
-
 import os
 import time
 import traceback
