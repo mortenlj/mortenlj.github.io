@@ -20,13 +20,18 @@ Morten Lied Johansen
 Work experience
 ===============
 
-Spring 2005 - 
- | FunCom AS
- | Coder on Dreamfall.
+Spring 2006 - 
+ | Funcom_ AS
+ | Localization / Tools coder on `Age of Conan: Hyborian Adventures`_.
+
+
+Spring 2005 - Spring 2006
+ | Funcom_ AS
+ | Coder on Dreamfall_.
 
 
 Spring 1999 - Spring 2005
- | University of Oslo, Faculty of Mathematics and Natural Sciences, Student-IT.
+ | `University of Oslo`_, `Faculty of Mathematics and Natural Sciences`_, Student-IT.
  | First-line support/simple sysadmin at student computer labs.
 
 
@@ -49,23 +54,20 @@ Education
 
 Autumn 2001 - Spring 2005
  | Candidatus Scientiarum (equiv. Master of Science)
- | Department of Informatics
- | University of Oslo
+ | `Department of Informatics`_
+ | `University of Oslo`_
  
  The degree required the submission of a thesis detailing the challenges facing
  me during the development of PyMek_, a make-like tool for building software.
  PyMek was implemented entirely in Python_.
 
-.. _PyMek: http://ibidem.homeip.net/PyMek
-.. _Python: http://www.python.org
-
 
 Autumn 1997 - Autumn 2002
  | Candidatus Magisterii (equiv. Bachelor)
- | Faculty of Mathematics and Natural Sciences
- | University of Oslo
+ | `Faculty of Mathematics and Natural Sciences`_
+ | `University of Oslo`_
 
- My major focus of my studies was Computer Science and Mathematics. In addition,
+ The major focus of my studies was Computer Science and Mathematics. In addition,
  I have taken introduction courses in as diverse fields as Logic, Statistics and
  Astronomy.
 
@@ -78,14 +80,14 @@ Skills
 ======
 
 Advanced knowledge and experience:
-  * Python
+  * Python_
   * XML, XHTML, CSS
 
 Good knowledge and experience:
-  * PHP, Java
+  * PHP_, Java, C/C++
 
 Good knowledge:
-  * Perl, Simula, C/C++
+  * Perl, Simula
   * Regular expressions
 
 Some knowledge:
@@ -97,11 +99,11 @@ Other activities
 ================
 
 2001 - Today
- | Webdeveloper/Webmaster for Nordstrand Basketball Club.
+ | Webdeveloper/Webmaster for `Nordstrand Basketball Club`_.
 
 
 1999 - 2001
- | Coach for boys born 1984 or later in Nordstrand Basketball Club.
+ | Coach for boys born 1984 or later in `Nordstrand Basketball Club`_.
 
 
 1997 - Today
@@ -109,13 +111,14 @@ Other activities
 
 
 1993 - Today
- | Plays basketball for Nordstrand Basketball Club.
+ | Plays basketball for `Nordstrand Basketball Club`_.
+
 
 Other notable information
 =========================
 
 I first learned programming C on my own. I then moved on to some C++, with focus 
-on Visual C++, before starting formal education at the University of Oslo.
+on Visual C++, before starting formal education at the `University of Oslo`_.
 
 My team achieved a second place in our first outing in the university qualifier 
 for The Annual ACM International Collegiate Programming Contest in 1999. 
@@ -125,3 +128,17 @@ I have finished military service.
 
 I speak and write fluently in English and Norwegian. Like many scandinavians I 
 can interact in the other scandinavian languages, Danish and Swedish, as well.
+
+
+.. Links
+
+.. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
+.. _`Faculty of Mathematics and Natural Sciences`: http://www.matnat.uio.no
+.. _`Department of Informatics`: http://www.ifi.uio.no
+.. _`University of Oslo`: http://www.uio.no
+.. _PyMek: http://ibidem.homeip.net/PyMek
+.. _Python: http://www.python.org
+.. _PHP: http://www.php.net
+.. _Funcom: http://www.funcom.com
+.. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
+.. _Dreamfall: http://www.dreamfall.com
