@@ -27,8 +27,8 @@ def make_html():
           os.system(rst2html % (oldname, newname))
 
 TEMPLATE="""
-Documents in %s
-===============
+%s
+%s
 
 %s
 
@@ -40,7 +40,7 @@ def extract_title(filename):
   f = open(filename,"r")
   for line in f:
     if line.startswith("<title>"):
-      return line[7:-8]
+      return line[7:-9]
 
 TEXTLINE = "* `%s`_"
 LINKLINE = ".. _`%s`: %s"
@@ -63,11 +63,12 @@ def make_index(directory):
     indextime = 0
   for f in os.listdir(directory):
     name, ext = os.path.splitext(f)
-    if ext == ".html" and os.path.getmtime(os.path.join(directory,f)) > indextime:
+    if ext == ".html" and not name == "index":
       files.append( (extract_title(os.path.join(directory,f)), f) )
   if len(files) > 0:
     index = open(indexfile,"w")
-    text = TEMPLATE % ( directory.title(),
+    title = "Documents in %s" % directory.title()
+    text = TEMPLATE % ( title, "="*len(title),
                         files_to_list(files),
                         time.asctime() )
     index.write( text )
