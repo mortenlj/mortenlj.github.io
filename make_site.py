@@ -74,12 +74,12 @@ def make_index(directory):
     os.system(rst2html % (indexfile, newname))
 
 def update():
-  os.system(svmcmd)
+  os.system(svncmd)
 
 if __name__ == "__main__":
   if os.path.exists("/tmp/commit-hook.log"):
-    os.unlink("/tmp/commit-hook.log")
     os.chdir("/var/www/localhost/htdocs")
     update()
     make_html()
     make_index("musings")
+    os.unlink("/tmp/commit-hook.log")
