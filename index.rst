@@ -19,7 +19,7 @@ Misc
 * `Nordstrand Basketball Club`_
 * Fun_
 * Albums_
-* Movies
+* Movies_
 
 .. _Musings: musings
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
