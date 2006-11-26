@@ -19,11 +19,13 @@ Misc
 * `Nordstrand Basketball Club`_
 * Fun_
 * Albums_
+* Movies
 
 .. _Musings: musings
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
 .. _Fun: fun
 .. _Albums: album
+.. _Movies: django/movies
 
 
 Projects
