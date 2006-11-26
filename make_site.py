@@ -10,6 +10,7 @@ import time
 import traceback
 
 rst2html = "/usr/bin/rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+svncmd = "svn up"
 
 def make_html():
   for root, dirs, files in os.walk("."):
@@ -73,8 +74,7 @@ def make_index(directory):
     os.system(rst2html % (indexfile, newname))
 
 def update():
-  cmd = "svn up"
-  os.system(cmd)
+  os.system(svmcmd)
 
 if __name__ == "__main__":
   if os.path.exists("/tmp/commit-hook.log"):
