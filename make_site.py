@@ -77,10 +77,17 @@ def make_index(directory):
     newname = name + ".html"
     os.system(rst2html % (indexfile, newname))
 
+def update():
+  cmd = "svn up"
+  os.system(cmd)
+
 if __name__ == "__main__":
   try:
-    os.chdir("/var/www/localhost/htdocs")
-    make_html()
-    make_index("musings")
+    if os.path.exists("/tmp/commit-hook.log"):
+      os.unlink("/tmp/commit-hook.log")
+      os.chdir("/var/www/localhost/htdocs")
+      update()
+      make_html()
+      make_index("musings")
   except:
     logfile.write(traceback.format_exc())
