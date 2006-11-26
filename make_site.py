@@ -9,12 +9,9 @@ import os
 import time
 import traceback
 
-logfile = open("/tmp/commit-hook.log","a")
-
 rst2html = "/usr/bin/rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 
 def make_html():
-  logfile.write("make_html\n")
   for root, dirs, files in os.walk("."):
     for f in files:
       oldname = os.path.join(root,f)
@@ -36,7 +33,6 @@ TEMPLATE="""
 """
 
 def extract_title(filename):
-  logfile.write("extract_title\n")
   f = open(filename,"r")
   for line in f:
     if line.startswith("<title>"):
@@ -54,7 +50,6 @@ def files_to_list(files):
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
   
 def make_index(directory):
-  logfile.write("make_index\n")
   files = list()
   indexfile = os.path.join(directory,"index.rst")
   if os.path.exists(indexfile):
@@ -82,12 +77,9 @@ def update():
   os.system(cmd)
 
 if __name__ == "__main__":
-  try:
-    if os.path.exists("/tmp/commit-hook.log"):
-      os.unlink("/tmp/commit-hook.log")
-      os.chdir("/var/www/localhost/htdocs")
-      update()
-      make_html()
-      make_index("musings")
-  except:
-    logfile.write(traceback.format_exc())
+  if os.path.exists("/tmp/commit-hook.log"):
+    os.unlink("/tmp/commit-hook.log")
+    os.chdir("/var/www/localhost/htdocs")
+    update()
+    make_html()
+    make_index("musings")
