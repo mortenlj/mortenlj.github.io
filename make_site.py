@@ -49,6 +49,14 @@ def files_to_list(files):
     texts.append( TEXTLINE % title )
     links.append( LINKLINE % (title, filename) )
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
+
+def albums_to_list(albums):
+  texts = list()
+  links = list()
+  for name, desc, filename in albums:
+    texts.append( "* `%s`_ : %s" % (name, desc))
+    links.append( LINKLINE % (name, filename))
+  return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
   
 def make_index(directory):
   files = list()
@@ -73,6 +81,35 @@ def make_index(directory):
     newname = name + ".html"
     os.system(rst2html % (indexfile, newname))
 
+def make_album():
+  albums = list()
+  directory = "album"
+  indexfile = os.path.join(directory,"index.rst")
+  if os.path.exists(indexfile):
+    indextime = os.path.getmtime(indexfile)
+  else:
+    indextime = 0
+  for f in os.listdir(directory):
+    dname = os.path.join(directory,f)
+    if not os.path.isdir(dname):
+      continue
+    descfile = open(os.path.join(dname, ".description"))
+    name = descfile.readline().strip()
+    desc = descfile.readline().strip()
+    descfile.close()
+    albums.append( [name, desc, f] )
+  if len(albums) > 0:
+    index = open(indexfile,"w")
+    title = "Albums"
+    text = TEMPLATE % ( title, "="*len(title),
+                        albums_to_list(albums),
+                        time.asctime() )
+    index.write( text )
+    index.close()
+    name, ext = os.path.splitext(indexfile)
+    newname = name + ".html"
+    os.system(rst2html % (indexfile, newname))
+
 def update():
   os.system(svncmd)
 
@@ -82,4 +119,5 @@ if __name__ == "__main__":
     update()
     make_html()
     make_index("musings")
+    make_album()
     os.unlink("/tmp/commit-hook.log")
