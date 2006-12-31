@@ -45,6 +45,7 @@ LINKLINE = ".. _`%s`: %s"
 def files_to_list(files):
   texts = list()
   links = list()
+  files.sort()
   for title, filename in files:
     texts.append( TEXTLINE % title )
     links.append( LINKLINE % (title, filename) )
@@ -53,6 +54,7 @@ def files_to_list(files):
 def albums_to_list(albums):
   texts = list()
   links = list()
+  albums.sort()
   for name, desc, filename in albums:
     texts.append( "* `%s`_ : %s" % (name, desc))
     links.append( LINKLINE % (name, filename))
