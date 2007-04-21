@@ -20,12 +20,14 @@ Misc
 * Fun_
 * Albums_
 * Movies_
+* Delicious_ bookmarks
 
 .. _Musings: musings
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
 .. _Fun: fun
 .. _Albums: album
 .. _Movies: django/movies
+.. _Delicious: http://del.icio.us/mortenlj
 
 
 Projects
