@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /KlubbWeb
+Disallow: /Wolfy
+Disallow: /django
+Disallow: /PyMek/browser
+Disallow: /PyMek/report
+Disallow: /PyMek/query
+Disallow: /PyMek/ticket
+Disallow: /PyMek/wiki/Trac
+Disallow: /Misc/browser
+Disallow: /Misc/report
+Disallow: /Misc/query
+Disallow: /Misc/ticket
+Disallow: /Misc/wiki/Trac
