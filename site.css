@@ -1,4 +1,4 @@
-@import url(voidspace.css);
+@import url(http://ibidem.homeip.net/voidspace.css);
 
 div.attention, div.caution, div.danger, div.error, div.hint,
 div.important, div.note, div.tip, div.warning, div.admonition,
@@ -31,3 +31,11 @@ h1.title {
 
 hr {
   text-align: left }
+
+.row1 {
+    background-color: #8CC6FF;
+}
+
+.row2 {
+    background-color: #6090BF;
+}
