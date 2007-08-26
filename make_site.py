@@ -49,7 +49,7 @@ def files_to_list(files):
   files.sort()
   for title, filename in files:
     texts.append( TEXTLINE % title )
-    links.append( LINKLINE % (quote(title), filename) )
+    links.append( LINKLINE % (title, quote(filename)) )
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
 
 def albums_to_list(albums):
@@ -58,7 +58,7 @@ def albums_to_list(albums):
   albums.sort()
   for name, desc, filename in albums:
     texts.append( "* `%s`_ : %s" % (name, desc))
-    links.append( LINKLINE % (quote(name), filename))
+    links.append( LINKLINE % (name, quote(filename)))
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
   
 def make_index(directory):
