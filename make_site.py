@@ -8,6 +8,7 @@ This script is run by the commit-hook.
 import os
 import time
 import traceback
+from urllib import quote
 
 rst2html = "/usr/bin/rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 svncmd = "svn up"
@@ -48,7 +49,7 @@ def files_to_list(files):
   files.sort()
   for title, filename in files:
     texts.append( TEXTLINE % title )
-    links.append( LINKLINE % (title, filename) )
+    links.append( LINKLINE % (quote(title), filename) )
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
 
 def albums_to_list(albums):
@@ -57,7 +58,7 @@ def albums_to_list(albums):
   albums.sort()
   for name, desc, filename in albums:
     texts.append( "* `%s`_ : %s" % (name, desc))
-    links.append( LINKLINE % (name, filename))
+    links.append( LINKLINE % (quote(name), filename))
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
   
 def make_index(directory):
