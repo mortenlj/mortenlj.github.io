@@ -13,8 +13,8 @@ Morten Lied Johansen
 :E-mail: mortenjo@ifi.uio.no
 :Homepage: http://ibidem.homeip.net
 :Mailing address:
- | Dovresvingen 2
- | 1184 Oslo
+ | Antenneveien 24
+ | 1154 Oslo
  | Norway
 
 Work experience
@@ -87,13 +87,13 @@ Good knowledge and experience:
   * PHP_, Java, C/C++
 
 Good knowledge:
-  * Perl, Simula
+  * Perl, Simula, SQL
   * Regular expressions
 
 Some knowledge:
   * Fortran, TCL, ML
   * Basic, Bash-script, MIPS assembler
-  * SQL, Common Lisp
+  * Common Lisp
 
 Other activities
 ================
