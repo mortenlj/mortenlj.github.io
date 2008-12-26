@@ -20,7 +20,12 @@ Morten Lied Johansen
 Work experience
 ===============
 
-Spring 2006 - 
+July 2008 -
+ | FINN.no_ AS
+ | Systems Developer
+
+
+Spring 2006 - June 2008
  | Funcom_ AS
  | Localization / Tools coder on `Age of Conan: Hyborian Adventures`_.
 
@@ -87,13 +92,13 @@ Good knowledge and experience:
   * PHP_, Java, C/C++
 
 Good knowledge:
-  * Perl, Simula, SQL
+  * Perl, Simula, SQL, JavaScript
   * Regular expressions
 
 Some knowledge:
   * Fortran, TCL, ML
   * Basic, Bash-script, MIPS assembler
-  * Common Lisp
+  * Common Lisp, Pascal
 
 Other activities
 ================
@@ -139,6 +144,7 @@ can interact in the other scandinavian languages, Danish and Swedish, as well.
 .. _PyMek: http://ibidem.homeip.net/PyMek
 .. _Python: http://www.python.org
 .. _PHP: http://www.php.net
+.. _FINN.no: http://www.finn.no
 .. _Funcom: http://www.funcom.com
 .. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
 .. _Dreamfall: http://www.dreamfall.com

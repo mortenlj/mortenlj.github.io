@@ -117,10 +117,8 @@ def update():
   os.system(svncmd)
 
 if __name__ == "__main__":
-  if os.path.exists("/tmp/commit-hook.log"):
-    os.chdir("/var/www/localhost/htdocs")
-    update()
-    make_html()
-    make_index("musings")
-    make_album()
-    os.unlink("/tmp/commit-hook.log")
+  os.chdir("/var/www/ibidem.homeip.net/htdocs")
+  update()
+  make_html()
+  make_index("musings")
+  make_album()
