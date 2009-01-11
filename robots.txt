@@ -7,8 +7,11 @@ Disallow: /PyMek/report
 Disallow: /PyMek/query
 Disallow: /PyMek/ticket
 Disallow: /PyMek/wiki/Trac
+Disallow: /PyMek/timeline?
 Disallow: /Misc/browser
 Disallow: /Misc/report
 Disallow: /Misc/query
 Disallow: /Misc/ticket
 Disallow: /Misc/wiki/Trac
+Disallow: /Misc/timeline?
+Disallow: /album/
