@@ -51,3 +51,10 @@ Some games
 .. _Planetarion: http://www.planetarion.com
 .. _Dreamfall: http://www.dreamfall.com
 .. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
+
+Best comic ever :P
+..................
+
+* `Russell's Teapot: Dra til Helvete`_
+
+.. _`Russell's Teapot: Dra til Helvete`: http://russellsteapot.com/comics/2007/Dra-Til-Helvete.html
