@@ -7,6 +7,10 @@ Alle tog-reservasjonene våre kan sees her_.
 
 .. _her: Tog_Reservasjoner2.pdf
 
+`Her er en samlefil med alle reisedokumentene`_.
+
+.. _`Her er en samlefil med alle reisedokumentene`: Reisedokumenter.pdf
+
 ===== ============ =============================== =============== =====================================
 Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting                          
 ===== ============ =============================== =============== =====================================
