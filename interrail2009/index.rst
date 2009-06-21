@@ -25,7 +25,7 @@ Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting
 08.07 München      `Tog til Zurich`_ (booket)      Zürich          `Atlantis Guesthouse`_
 09.07 Zürich       `Tog til Milano`_ (booket)      Milano          `Hotel Vienna`_
 10.07 Milano                                       Milano          `Hotel Vienna`_
-11.07 Milano       `Tog til Menton`_ (booket)      Menton          (**IKKE BOOKET**)                    
+11.07 Milano       `Tog til Menton`_ (booket)      Menton          `Le Royal Westminster`_
 12.07 Menton       `Tog til Marseille`_            Marseille       `Best Western Bonneveine Prado`_     
                    (fritt valg, ikke bookbart)                                                          
 13.07 Marseille                                    Marseille       `Best Western Bonneveine Prado`_     
@@ -58,7 +58,7 @@ Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting
 .. _`Hotel Vienna`: Hotell_Milano.pdf
 
 .. _`Tog til Menton`: Tog_Milano_Menton.pdf
-
+.. _`Le Royal Westminster`: Hotell_Menton.pdf
 
 .. _`Tog til Marseille`: Tog_Menton_Marseille.pdf
 .. _`Best Western Bonneveine Prado`: Hotell_Marseille.pdf
