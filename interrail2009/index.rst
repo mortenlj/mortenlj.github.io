@@ -7,35 +7,35 @@ Alle tog-reservasjonene våre kan sees her_.
 
 .. _her: Tog_Reservasjoner2.pdf
 
-===== ============ =============================== ===================================== ===============
-Dato  Våkner opp i Annet                           Overnatting                           Går til sengs i
-===== ============ =============================== ===================================== ===============
-29.06 Oslo         `Fly til Hamburg, Morten`_,     `Best Western Hamburg International`_ Hamburg        
+===== ============ =============================== =============== =====================================
+Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting                          
+===== ============ =============================== =============== =====================================
+29.06 Oslo         `Fly til Hamburg, Morten`_,     Hamburg         `Best Western Hamburg International`_
                    `Fly til Hamburg, Linn`_                                                             
-30.06 Hamburg                                      `Nattog til Amsterdam`_ (booket)      Hamburg        
-01.07 Amsterdam                                    `Eden Hotel Amsterdam`_               Amsterdam      
-02.07 Amsterdam                                    `Eden Hotel Amsterdam`_               Amsterdam      
-03.07 Amsterdam    `Tog til Brussel`_              `Holiday Inn Brussels-Schuman`_       Brussel        
+30.06 Hamburg                                      Hamburg         `Nattog til Amsterdam`_ (booket)     
+01.07 Amsterdam                                    Amsterdam       `Eden Hotel Amsterdam`_              
+02.07 Amsterdam                                    Amsterdam       `Eden Hotel Amsterdam`_              
+03.07 Amsterdam    `Tog til Brussel`_              Brussel         `Holiday Inn Brussels-Schuman`_      
                    (fritt valg, ikke bookbart)                                                          
-04.07 Brussel                                      `Holiday Inn Brussels-Schuman`_       Brussel        
-05.07 Brussel      `Tog til Køln`_ (booket)        `Nattog til München`_                 Køln           
-                                                   fra Køln (booket)                                    
-06.07 München                                      (**IKKE BOOKET**)                     München        
-07.07 München                                      (**IKKE BOOKET**)                     München        
-08.07 München      `Tog til Zurich`_ (booket)      (**IKKE BOOKET**)                     Zürich         
-09.07 Zürich       `Tog til Milano`_ (booket)      (**IKKE BOOKET**)                     Milano         
-10.07 Milano                                       (**IKKE BOOKET**)                     Milano         
-11.07 Milano       `Tog til Menton`_ (booket)      (**IKKE BOOKET**)                     Menton         
-12.07 Menton       `Tog til Marseille`_            `Best Western Bonneveine Prado`_      Marseille      
+04.07 Brussel                                      Brussel         `Holiday Inn Brussels-Schuman`_      
+05.07 Brussel      `Tog til Køln`_ (booket)        Køln            `Nattog til München`_                
+                                                                   fra Køln (booket)                    
+06.07 München                                      München         (**IKKE BOOKET**)                    
+07.07 München                                      München         (**IKKE BOOKET**)                    
+08.07 München      `Tog til Zurich`_ (booket)      Zürich          (**IKKE BOOKET**)                    
+09.07 Zürich       `Tog til Milano`_ (booket)      Milano          (**IKKE BOOKET**)                    
+10.07 Milano                                       Milano          (**IKKE BOOKET**)                    
+11.07 Milano       `Tog til Menton`_ (booket)      Menton          (**IKKE BOOKET**)                    
+12.07 Menton       `Tog til Marseille`_            Marseille       `Best Western Bonneveine Prado`_     
                    (fritt valg, ikke bookbart)                                                          
-13.07 Marseille                                    `Best Western Bonneveine Prado`_      Marseille      
-14.07 Marseille                                    `Best Western Bonneveine Prado`_      Marseille      
-15.07 Marseille    `TGV til Paris`_ (booket),      `Williams Opéra`_                     Paris          
-16.07 Paris                                        `Williams Opéra`_                     Paris          
-17.07 Paris                                        `Williams Opéra`_                     Paris          
-18.07 Paris        `Fly fra Paris, Morten`_,       Hjemme                                Oslo           
+13.07 Marseille                                    Marseille       `Best Western Bonneveine Prado`_     
+14.07 Marseille                                    Marseille       `Best Western Bonneveine Prado`_     
+15.07 Marseille    `TGV til Paris`_ (booket),      Paris           `Williams Opéra`_                    
+16.07 Paris                                        Paris           `Williams Opéra`_                    
+17.07 Paris                                        Paris           `Williams Opéra`_                    
+18.07 Paris        `Fly fra Paris, Morten`_,       Oslo            Hjemme                               
                    `Fly fra Paris, Linn`_                                                               
-===== ============ =============================== ===================================== ===============
+===== ============ =============================== =============== =====================================
                                                                                
 .. _`Fly til Hamburg, Morten`: Fly_Hamburg_Morten.pdf
 .. _`Fly til Hamburg, Linn`: Fly_Hamburg_Linn.pdf
