@@ -20,11 +20,11 @@ Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting
 04.07 Brussel                                      Brussel         `Holiday Inn Brussels-Schuman`_      
 05.07 Brussel      `Tog til Køln`_ (booket)        Køln            `Nattog til München`_                
                                                                    fra Køln (booket)                    
-06.07 München                                      München         (**IKKE BOOKET**)                    
-07.07 München                                      München         (**IKKE BOOKET**)                    
-08.07 München      `Tog til Zurich`_ (booket)      Zürich          (**IKKE BOOKET**)                    
-09.07 Zürich       `Tog til Milano`_ (booket)      Milano          (**IKKE BOOKET**)                    
-10.07 Milano                                       Milano          (**IKKE BOOKET**)                    
+06.07 München                                      München         `TRYP`_
+07.07 München                                      München         `TRYP`_
+08.07 München      `Tog til Zurich`_ (booket)      Zürich          `Atlantis Guesthouse`_
+09.07 Zürich       `Tog til Milano`_ (booket)      Milano          `Hotel Vienna`_
+10.07 Milano                                       Milano          `Hotel Vienna`_
 11.07 Milano       `Tog til Menton`_ (booket)      Menton          (**IKKE BOOKET**)                    
 12.07 Menton       `Tog til Marseille`_            Marseille       `Best Western Bonneveine Prado`_     
                    (fritt valg, ikke bookbart)                                                          
@@ -49,10 +49,13 @@ Dato  Våkner opp i Aktiviteter                     Går til sengs i Overnatting
 
 .. _`Tog til Køln`: Tog_Brussel_Koln.pdf
 .. _`Nattog til München`: Tog_Koln_Munchen.pdf
+.. _`TRYP`: Hotell_Munchen.pdf
 
 .. _`Tog til Zurich`: Tog_Munchen_Zurich.pdf
+.. _`Atlantis Guesthouse`: Hotell_Zurich.pdf
 
 .. _`Tog til Milano`: Tog_Zurich_Milano.pdf
+.. _`Hotel Vienna`: Hotell_Milano.pdf
 
 .. _`Tog til Menton`: Tog_Milano_Menton.pdf
 
