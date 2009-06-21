@@ -1,0 +1,5 @@
+AuthUserFile /var/www/ibidem.homeip.net/htdocs/interrail2009/.htpasswd
+AuthName "Interrail 2009"
+AuthType Basic
+
+Require valid-user
