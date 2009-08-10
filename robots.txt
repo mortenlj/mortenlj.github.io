@@ -1,6 +1,6 @@
 User-agent: *
+Disallow: /HowlingTech
 Disallow: /KlubbWeb
-Disallow: /Wolfy
 Disallow: /django
 Disallow: /PyMek/browser
 Disallow: /PyMek/report
