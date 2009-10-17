@@ -148,3 +148,7 @@ can interact in the other scandinavian languages, Danish and Swedish, as well.
 .. _Funcom: http://www.funcom.com
 .. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
 .. _Dreamfall: http://www.dreamfall.com
+
+
+.. raw:: html
+   :file: ga.inc
