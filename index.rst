@@ -62,3 +62,7 @@ Best comic ever :P
 * `Russell's Teapot: Dra til Helvete`_
 
 .. _`Russell's Teapot: Dra til Helvete`: http://russellsteapot.com/comics/2007/Dra-Til-Helvete.html
+
+
+.. raw:: html
+   :file: ga.inc
