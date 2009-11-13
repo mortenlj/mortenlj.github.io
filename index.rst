@@ -31,7 +31,7 @@ Misc
 .. _Movies: django/movies
 .. _Delicious: http://del.icio.us/mortenlj
 .. _Dropbox: https://www.getdropbox.com/referrals/NTE2NjA4Njc5
-.. _`Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V
+.. _`Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
 
 
 Projects

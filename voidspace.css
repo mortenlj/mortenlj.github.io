@@ -10,7 +10,7 @@ Based on ``blue_box.css`` by Ian Bicking
 and ``html4css1.css`` revision 1.46.
 */
 
-@import url(http://ibidem.homeip.net/docutils.css);
+/*@import url(http://ibidem.homeip.net/docutils.css);*/
 
 body {
   font-family: Arial, sans-serif;
