@@ -27,7 +27,7 @@ Misc
 .. _Musings: musings
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
 .. _Fun: fun
-.. _Albums: album
+.. _Albums: django/gallery
 .. _Movies: django/movies
 .. _Delicious: http://del.icio.us/mortenlj
 .. _Dropbox: https://www.getdropbox.com/referrals/NTE2NjA4Njc5
