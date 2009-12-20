@@ -10,7 +10,7 @@ import time
 import traceback
 from urllib import quote
 
-rst2html = "/usr/bin/rst2html.py -g -d -t -s --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+rst2html = "/usr/bin/rst2html.py -g -d -t -s --no-doc-title --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 svncmd = "svn up"
 
 def make_html():
