@@ -119,7 +119,7 @@ Other activities
 
 
 1993 - 2008
- | Plays basketball for `Nordstrand Basketball Club`_.
+ | Played basketball for `Nordstrand Basketball Club`_.
 
 
 Other notable information
