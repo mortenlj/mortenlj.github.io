@@ -62,8 +62,8 @@ Autumn 2001 - Spring 2005
  | `Department of Informatics`_
  | `University of Oslo`_
  
- The degree required the submission of a thesis detailing the challenges facing
- me during the development of PyMek_, a make-like tool for building software.
+ The degree required the submission of a thesis detailing the challenges encountered
+ during the development of PyMek_, a make-like tool for building software.
  PyMek was implemented entirely in Python_.
 
 
@@ -85,23 +85,26 @@ Skills
 ======
 
 Advanced knowledge and experience:
-  * Python_
+  * Python_, Java
   * XML, XHTML, CSS
 
 Good knowledge and experience:
-  * PHP_, Java, C/C++
+  * PHP_, C/C++, Subversion, Maven
 
 Good knowledge:
   * Perl, Simula, SQL, JavaScript
-  * Regular expressions
+  * Regular expressions, Perforce
 
 Some knowledge:
-  * Fortran, TCL, ML
+  * Fortran, TCL, ML, CVS
   * Basic, Bash-script, MIPS assembler
   * Common Lisp, Pascal
 
 Other activities
 ================
+
+2009 - Today
+ | Treasurer for `Nordstrand Basketball Club`_.
 
 2001 - Today
  | Webdeveloper/Webmaster for `Nordstrand Basketball Club`_.
@@ -111,11 +114,11 @@ Other activities
  | Coach for boys born 1984 or later in `Nordstrand Basketball Club`_.
 
 
-1997 - Today
- | Plays golf in Krokhol Golfklubb.
+1997 - 2008
+ | Played golf in Krokhol Golfklubb.
 
 
-1993 - Today
+1993 - 2008
  | Plays basketball for `Nordstrand Basketball Club`_.
 
 
