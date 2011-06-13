@@ -42,13 +42,22 @@ Misc external links
 Projects
 ........
 
-* PyMek_
 * KlubbWeb_
-* Misc_
+* SupyBot plugins
 
-.. _PyMek: PyMek
-.. _KlubbWeb: KlubbWeb
-.. _Misc: Misc
+  * IceDJ_
+  * NetGamers_
+
+* Python libraries
+
+  * `Ibidem Utils`_
+  * `Ibidem Django Utils`_
+
+.. _KlubbWeb: https://bitbucket.org/mortenlj/clubweb
+.. _IceDJ: https://bitbucket.org/mortenlj/icedj
+.. _NetGamers: https://bitbucket.org/mortenlj/netgamers
+.. _`Ibidem Utils`: https://bitbucket.org/mortenlj/ibidem-util
+.. _`Ibidem Django Utils`: https://bitbucket.org/mortenlj/ibidem-django-util
 
 Some games
 ..........
