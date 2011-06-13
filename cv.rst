@@ -93,7 +93,9 @@ Good knowledge and experience:
 
 Good knowledge:
   * Perl, Simula, SQL, JavaScript
-  * Regular expressions, Perforce
+  * Regular expressions
+  * Mercurial_, Perforce
+  * SolR_, Spring-MVC_
 
 Some knowledge:
   * Fortran, TCL, ML, CVS
@@ -103,15 +105,12 @@ Some knowledge:
 Other activities
 ================
 
-2009 - Today
- | Treasurer for `Nordstrand Basketball Club`_.
-
 2001 - Today
  | Webdeveloper/Webmaster for `Nordstrand Basketball Club`_.
 
 
-1999 - 2001
- | Coach for boys born 1984 or later in `Nordstrand Basketball Club`_.
+2009 - 2011
+ | Treasurer for `Nordstrand Basketball Club`_.
 
 
 1997 - 2008
@@ -120,6 +119,10 @@ Other activities
 
 1993 - 2008
  | Played basketball for `Nordstrand Basketball Club`_.
+
+
+1999 - 2001
+ | Coach for boys born 1984 or later in `Nordstrand Basketball Club`_.
 
 
 Other notable information
@@ -147,6 +150,9 @@ can interact in the other scandinavian languages, Danish and Swedish, as well.
 .. _PyMek: http://ibidem.homeip.net/PyMek
 .. _Python: http://www.python.org
 .. _PHP: http://www.php.net
+.. _Mercurial: http://mercurial.selenic.com/
+.. _SolR: http://lucene.apache.org/solr/
+.. _Spring-MVC: http://www.springsource.org/
 .. _FINN.no: http://www.finn.no
 .. _Funcom: http://www.funcom.com
 .. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
