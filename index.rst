@@ -4,9 +4,9 @@ Ibidem
 What's this?
 ------------
 
-Welcome to my site on the internet.
+Welcome to our site on the internet.
 
-It's just a place I use to put stuff, and if you should happen to find anything 
+It's just a place we use to put stuff, and if you should happen to find anything 
 interesting, good for you.
 
 Links
@@ -16,22 +16,27 @@ Misc
 ....
 
 * Musings_
-* `Nordstrand Basketball Club`_
-* Fun_
+* `Interrail 2009`_
 * Albums_
 * Movies_
-* Delicious_ bookmarks
-* Dropbox_
-* `Amazon.co.uk WishList`_
+* `Mortens Curriculum Vitae`_
 
 .. _Musings: musings
-.. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
-.. _Fun: fun
+.. _`Interrail 2009`: interrail2009
 .. _Albums: django/gallery
 .. _Movies: django/movies
-.. _Delicious: http://del.icio.us/mortenlj
+.. _`Mortens Curriculum Vitae`: cv.html
+
+Misc external links
+...................
+
+* `Nordstrand Basketball Club`_
+* Dropbox_
+* `Mortens Amazon.co.uk WishList`_
+
+.. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
 .. _Dropbox: https://www.getdropbox.com/referrals/NTE2NjA4Njc5
-.. _`Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
+.. _`Mortens Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
 
 
 Projects

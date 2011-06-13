@@ -10,8 +10,8 @@ import time
 import traceback
 from urllib import quote
 
-rst2html = "/usr/bin/rst2html.py -g -d -t -s --no-doc-title --stylesheet=\"/site.css\" --link-stylesheet %s %s"
-svncmd = "svn up"
+rst2html = "/usr/bin/rst2html.py -g -d -t -s --initial-header-level=2 --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+updatecmd = "hg pull --update"
 
 def make_html():
   for root, dirs, files in os.walk("."):
@@ -20,10 +20,9 @@ def make_html():
       name, ext = os.path.splitext(oldname)
       if ext == ".rst":
         newname = name + ".html"
-        if name == "cv":
-          newname += ".en"
-        if not os.path.exists(newname) or os.path.getmtime(oldname) > os.path.getmtime(newname):
-          os.system(rst2html % (oldname, newname))
+        cmd = rst2html % (oldname, newname)
+        print "Running command: %s" % cmd
+        os.system(cmd)
 
 TEMPLATE="""
 %s
@@ -52,15 +51,6 @@ def files_to_list(files):
     links.append( LINKLINE % (title, quote(filename)) )
   return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
 
-def albums_to_list(albums):
-  texts = list()
-  links = list()
-  albums.sort()
-  for name, desc, filename in albums:
-    texts.append( "* `%s`_ : %s" % (name, desc))
-    links.append( LINKLINE % (name, quote(filename)))
-  return "%s\n\n%s\n" % ( "\n".join(texts), "\n".join(links) )
-  
 def make_index(directory):
   files = list()
   indexfile = os.path.join(directory,"index.rst")
@@ -84,41 +74,11 @@ def make_index(directory):
     newname = name + ".html"
     os.system(rst2html % (indexfile, newname))
 
-def make_album():
-  albums = list()
-  directory = "album"
-  indexfile = os.path.join(directory,"index.rst")
-  if os.path.exists(indexfile):
-    indextime = os.path.getmtime(indexfile)
-  else:
-    indextime = 0
-  for f in os.listdir(directory):
-    dname = os.path.join(directory,f)
-    if not os.path.isdir(dname):
-      continue
-    descfile = open(os.path.join(dname, ".description"))
-    name = descfile.readline().strip()
-    desc = descfile.readline().strip()
-    descfile.close()
-    albums.append( [name, desc, f] )
-  if len(albums) > 0:
-    index = open(indexfile,"w")
-    title = "Albums"
-    text = TEMPLATE % ( title, "="*len(title),
-                        albums_to_list(albums),
-                        time.asctime() )
-    index.write( text )
-    index.close()
-    name, ext = os.path.splitext(indexfile)
-    newname = name + ".html"
-    os.system(rst2html % (indexfile, newname))
-
 def update():
-  os.system(svncmd)
+  os.system(updatecmd)
 
 if __name__ == "__main__":
   os.chdir("/var/www/ibidem.homeip.net/htdocs")
   update()
   make_html()
   make_index("musings")
-  make_album()
