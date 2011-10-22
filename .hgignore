@@ -1,0 +1,8 @@
+munin
+cv.html
+index.html
+interrail2009/index.html
+uprecords.txt
+syntax: glob
+musings/*.html
+musings/index.rst
