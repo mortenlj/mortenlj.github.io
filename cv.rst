@@ -12,7 +12,7 @@ Morten Lied Johansen
 :Cell phone: +47 92491982
 :E-mail: mortenjo@ifi.uio.no
 :Homepage: http://ibidem.homeip.net
-:Mailing address:
+:Mailing address: 
  | Antenneveien 24
  | 1154 Oslo
  | Norway
@@ -81,15 +81,28 @@ Autumn 1994 - Spring 1997
  | High school
  | Lambertseter Videregående skole
 
+Other courses
+=============
+
+October 2011
+ | Java Design Patterns
+ | JavaSpecialists.eu
+ | `Certificate of Training`_
+
+May 2011
+ | Solr developer
+ | http://solrtraining.com
+
 Skills
 ======
 
 Advanced knowledge and experience:
   * Python_, Java
-  * XML, XHTML, CSS
 
 Good knowledge and experience:
   * PHP_, C/C++, Subversion, Maven
+  * HTML, CSS
+  * XML
 
 Good knowledge:
   * Perl, Simula, SQL, JavaScript
@@ -157,7 +170,7 @@ can interact in the other scandinavian languages, Danish and Swedish, as well.
 .. _Funcom: http://www.funcom.com
 .. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
 .. _Dreamfall: http://www.dreamfall.com
-
+.. _`Certificate of Training`: http://www.javaspecialists.eu/courses/certificates/?uuid=e064c061-311b-484d-81f3-7f1808cc5737
 
 .. raw:: html
    :file: ga.inc
