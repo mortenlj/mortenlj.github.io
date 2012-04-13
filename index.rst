@@ -35,7 +35,7 @@ Misc external links
 * `Mortens Amazon.co.uk WishList`_
 
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
-.. _Dropbox: https://www.getdropbox.com/referrals/NTE2NjA4Njc5
+.. _Dropbox: http://db.tt/4LxkH410
 .. _`Mortens Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
 
 
