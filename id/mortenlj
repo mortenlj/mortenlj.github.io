@@ -10,7 +10,43 @@
 <body>
 <div class="document" id="ibidem">
 <h1 class="title">Morten Lied Johansen</h1>
-<a href="../">My site</a>
+<h3>More about me</h3>
+<p>..can be found at <a href="../">my site</a></p>
+<h3>My public GnuPG key</h3>
+<p>Download the key from my <a href="https://dl.dropbox.com/u/1660867/Morten%20Lied%20Johansen%20mortenjo%40ifi.uio.no%20%280xBFF7710F%29%20pub.asc">Dropbox</a>, or copy and paste from below.</p>
+<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.17 (MingW32)
+
+mQENBE8/nrgBCAC3NzfzyO23373f718k2oaAHlJWO+fptvgrBvLuV+j/iZCf1FSl
+zGA17+vE2hla/8fbiv0OzdvOrg2yVSAU9pnWWfvXpzSdyJ+hXlPXtpOu0dmcfmG/
+QzmHkfckjtgnVNQG0KqkQ1+Yp3qaNBSS4TeMNTKPLojZzYoDoPCYQszxsoqRbuDY
+skb3WcalDQXGGmtixr3fZwMSJfGDcIpqzxpwRztrMMT1rQqk+pm+suW2UOxUKozD
+xEawQXGScO+xia7rltg9nsQ/c+TyVg2wpYWlnE49mNsro9TsxREdPXWgjEbSn91S
+mQV1nJrD7YLK1P8jsdtkw+K5jcfDC6B4sYrVABEBAAG0OE1vcnRlbiBMaWVkIEpv
+aGFuc2VuIChubyBwYXNzd29yZCkgPG1vcnRlbmpvQGlmaS51aW8ubm8+iQE+BBMB
+AgAoBQJPP564AhsjBQkJZgGABgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRCb
+XOViv/dxD9CwB/4kCuhnJuod5UAPPpk3B0fTGY0PkfLaLpbLga7stSH3d3ARmqDn
+TRoby9eww/N8Av5+MlClIjrgXGZJzOeWTpVGwGZGlBvlot4SmTq7zlOVO7q+19ot
+gGqKEExuOukTYL5F/fmr4WNrCyNSKziZr8myQu7ZxMBQkAFRlAxv9EMuOEe0Uf8F
+prAnzi8If0UM1xqB3N3f4Z89OC1NjfCNMMewibKh4Da05yPwvfnPWVSryAPwXTDj
+iZjnhW4UczMmZZT/XI9vsf6/mhRkTxmT2XmcK8iga7JH5s2aRKtRcUREJ9A8WOsZ
+Q8bnfvoBZl/vKGBQHRqn684kkQL92ql+lWt7uQENBE8/nrgBCADLjyECYyRGwg5w
+rBKe0DPN5/KpFw0OOYWXadXfnJlGKK1loTWVP4PGgGbuuD+Dxg3872Z/+nNFUiwL
+hbg1LHRMzwrC22bviAMDdj2u1q0TmMj9bHMOjCOfb9fPhjVmilMbJTxPn+DC5m9B
+3D4LvY9jPJAU2jKouc4Vv4FTaTsJpe38vp6FCB9eJDXAdEU1XH4IYFIwixBRe6+x
+RFUjAh1LQ5jhYYeKJsmkFu2dVPgK5BJVkPNFoX/w4Et2E3rpAq61/ywEs432csOZ
+/QyYppS0X+HG2RiWegST5YinNOBNzaFpu4SmvVYmUa7WSKVgtXB62517inaSJUTa
+UIHZ2T7BABEBAAGJASUEGAECAA8FAk8/nrgCGwwFCQlmAYAACgkQm1zlYr/3cQ/Q
+uQf/dr8CP/8uL+NGi5HdQoB9KsSTCzX5AyL2wpL1oDruNrnNsu9ZrlgVK1R9nzFj
+1DkVrQwZ8pZafFl4h5FvLxc0CaBAg/LUqeXwKad/0Yq71QjzmJ2fIvey1iv5wBS0
+Y8CUHBi14nrlkA5wZDooMYKW5mYmvvmYmpCdajAi46J6OlhT4rIWB3UyTeN5qi00
+6aKtNuQk+N2czTGGdR6o5AJn8igyMQejzxir16iAN2iGhfH3mbTJdz+Lkc3H6QKI
+CsUY5Bg1AQ1pkokIViP81Vz2hBalY4XXjUisJ33Jubj/J9e867/6PRuUDcEPGw/Q
+jJywNg44XzVYP3b6WLvlUZEClQ==
+=PLah
+-----END PGP PUBLIC KEY BLOCK-----
+</pre>
 </div>
 </body>
 </html>
