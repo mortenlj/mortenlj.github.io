@@ -18,24 +18,20 @@ Misc
 * Musings_
 * `Interrail 2009`_
 * Albums_
-* Movies_
 * `Mortens Curriculum Vitae`_
 
 .. _Musings: musings
 .. _`Interrail 2009`: interrail2009
 .. _Albums: django/gallery
-.. _Movies: django/movies
 .. _`Mortens Curriculum Vitae`: cv.html
 
 Misc external links
 ...................
 
 * `Nordstrand Basketball Club`_
-* Dropbox_
 * `Mortens Amazon.co.uk WishList`_
 
 .. _`Nordstrand Basketball Club`: http://nordstrand.basket.no
-.. _Dropbox: http://db.tt/4LxkH410
 .. _`Mortens Amazon.co.uk WishList`: http://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
 
 
