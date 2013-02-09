@@ -16,24 +16,28 @@
 	<div id="header">
         <h2>Available Episodes</h2>
 	</div>
-    <div id="content">
-    <?php
-        define("NEW_DIR", "/volume1/video/series/0-NEW-0");
+        <div id="content">
+            <ul>
+            <?php
+                define("NEW_DIR", "/volume1/video/series/0-NEW-0");
+    
+                $files = scandir(NEW_DIR);
+                foreach ($files as $file) {
+                    if (substr($file, -4) == ".srt" ||
+                        $file == "." || $file == "..") {
+	                        continue;
+                    }
+                    echo "<li><a href=\"next.php?next=" . urlencode($file) . "\" >" . $file . "</a></li>";
+                }
+            ?>
 
-        $files = scandir(NEW_DIR);
-        foreach ($files as $file) {
-            if (substr($file, -4) == ".srt") {
-                continue;
-            }
-            echo "<li><a href=\"next.php?next=" . urlencode($file) . "\" >" . $file . "</a></li>";
-        }
-        ?>
-    </div>
-    <div class="footer">
-        <hr class="footer"/>
-    </div>
-<?php
-    include '../ga.inc';
-?>
+            </ul>
+        </div>
+        <div class="footer">
+            <hr class="footer"/>
+        </div>
+    <?php
+        include '../ga.inc';
+    ?>
 </body>
 </html>
