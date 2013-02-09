@@ -2,6 +2,10 @@
     define("SERIES_ROOT", "/volume1/video/series");
     define("NEXT_PATTERN", "next$[0-9]+x[0-9]+.py");
 
+    function join_dir($root, $file) {
+        return $root . DIRECTORY_SEPARATOR . $file;
+    }
+
     function scan_for_file($root, $target) {
         echo "Scanning dir: " . $root . "\n";
 
@@ -16,18 +20,16 @@
 
         echo "Not found, scanning subdirs\n";
 
-        $dirs = array_filter($files, "is_dir");
-
-        echo "Dirs: \n";
-        print_r($dirs);
-
-        foreach ($dirs as $dir) {
-            if ($dir[0] == ".") {
+        foreach ($files as $file) {
+            if ($file[0] == ".") {
                 continue;
             }
-            $result = scan_for_file($dir, $target);
-            if (!is_null($result)) {
-                return $result;
+            $dir = join_dir($root, $file);
+            if (is_dir($dir)) {
+                $result = scan_for_file($dir, $target);
+                if (!is_null($result)) {
+                    return $result;
+                }
             }
         }
         return NULL;
