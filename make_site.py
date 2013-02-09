@@ -10,7 +10,7 @@ import time
 import traceback
 from urllib import quote
 
-rst2html = "/usr/bin/rst2html.py -g -d -t -s --initial-header-level=2 --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+rst2html = "rst2html.py -g -d -t -s --initial-header-level=2 --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 updatecmd = "hg pull --update"
 
 def make_html():
@@ -78,7 +78,7 @@ def update():
   os.system(updatecmd)
 
 if __name__ == "__main__":
-  os.chdir("/var/www/ibidem.homeip.net/htdocs")
-  update()
+  #os.chdir("/var/www/ibidem.homeip.net/htdocs")
+  #update()
   make_html()
   make_index("musings")
