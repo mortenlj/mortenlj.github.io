@@ -17,12 +17,10 @@ Misc
 
 * Musings_
 * `Interrail 2009`_
-* Albums_
 * `Mortens Curriculum Vitae`_
 
 .. _Musings: musings
 .. _`Interrail 2009`: interrail2009
-.. _Albums: django/gallery
 .. _`Mortens Curriculum Vitae`: http://www.linkedin.com/in/epcylon
 
 Misc external links
