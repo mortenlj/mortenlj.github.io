@@ -4,8 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Morten Lied Johansen - OpenID</title>
 <link rel="stylesheet" href="/site.css" type="text/css" />
-<link rel="openid.server" href="http://www.myopenid.com/server" />
-<link rel="openid.delegate" href="http://epcylon.myopenid.com/" />
+<link rel="openid.server" href="http://www.clavid.com/provider/openid" />
+<link rel="openid2.provider" href="http://www.clavid.com/provider/openid" />
+<link rel="openid.delegate" href="http://mortenlj.clavid.com" />
+<link rel="openid2.local_id" href="http://mortenlj.clavid.com" />
 </head>
 <body>
 <div class="document" id="ibidem">
