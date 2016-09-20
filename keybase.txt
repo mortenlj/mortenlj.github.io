@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mortenlj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ibidem.homeip.net
+  * I am mortenlj (https://keybase.io/mortenlj) on keybase.
+  * I have a public key ASCHiltJO0JjA1mRIbV1CmgwYU-4dafRUr9b6y8hNvB-kAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014cf55369ef1dcfbede138a0e73b998986aef7c1bb36f2dcb667a8e661cb0b0a30a",
+            "host": "keybase.io",
+            "kid": "0120878a5b493b426303599121b5750a6830614fb875a7d152bf5beb2f2136f07e900a",
+            "uid": "4858c91e183ba0959e332149c656f619",
+            "username": "mortenlj"
+        },
+        "service": {
+            "hostname": "ibidem.homeip.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1474351951,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1474351851,
+        "hash": 
+"aeba53efbbfb333f2903b59fc33e4b685e6ef51ea91b3944b0c2f39b9859087d4d554c5bc9879dc381dbf332eb2e5b7633411b95ad966472404d17e87c14c84b",
+        "seqno": 644428
+    },
+    "prev": "4057891ecd7244ee92ed6ed028fda0f13a8f203165542815f5ebea50c98b6218",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgh4pbSTtCYwNZkSG1dQpoMGFPuHWn0VK/W+svITbwfpAKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNGNmNTUzNjllZjFkY2ZiZWRlMTM4YTBlNzNiOTk4OTg2YWVmN2MxYmIzNmYyZGNiNjY3YThlNjYxY2IwYjBhMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODc4YTViNDkzYjQyNjMwMzU5OTEyMWI1NzUwYTY4MzA2MTRmYjg3NWE3ZDE1MmJmNWJlYjJmMjEzNmYwN2U5MDBhIiwidWlkIjoiNDg1OGM5MWUxODNiYTA5NTllMzMyMTQ5YzY1NmY2MTkiLCJ1c2VybmFtZSI6Im1vcnRlbmxqIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJpYmlkZW0uaG9tZWlwLm5ldCIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc0MzUxOTUxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzQzNTE4NTEsImhhc2giOiJhZWJhNTNlZmJiZmIzMzNmMjkwM2I1OWZjMzNlNGI2ODVlNmVmNTFlYTkxYjM5NDRiMGMyZjM5Yjk4NTkwODdkNGQ1NTRjNWJjOTg3OWRjMzgxZGJmMzMyZWIyZTViNzYzMzQxMWI5NWFkOTY2NDcyNDA0ZDE3ZTg3YzE0Yzg0YiIsInNlcW5vIjo2NDQ0Mjh9LCJwcmV2IjoiNDA1Nzg5MWVjZDcyNDRlZTkyZWQ2ZWQwMjhmZGEwZjEzYThmMjAzMTY1NTQyODE1ZjVlYmVhNTBjOThiNjIxOCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNjcL3+67qZpwXFyVOHZgvW3beimm5euTKX0XEe8WfizzzrktZ1BntdYs8AerHBVszVDLBLJw8H70KqyGVobLAKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAd3mQTegolxVALwt7FRR3AxPA6VWqztzs8dU72M0T1MKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mortenlj
+
+==================================================================
