@@ -31,7 +31,7 @@ Morten
 .. _`Bitbucket projects`: https://bitbucket.org/mortenlj/
 .. _`GitHub projects`: https://github.com/mortenlj
 .. _`StackExchange profile`: https://stackexchange.com/users/25658/epcylon
--- _`Keybase profile`: https://keybase.io/mortenlj
+.. _`Keybase profile`: https://keybase.io/mortenlj
 
 
 Linn Ingrid
