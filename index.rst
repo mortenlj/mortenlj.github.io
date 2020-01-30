@@ -18,6 +18,7 @@ Morten
 * Musings_
 * `Interrail 2009`_
 * `LinkedIn Profile`_
+* `Facebook Profile`_
 * `Amazon.co.uk WishList`_
 * `GitHub projects`_
 * `StackExchange profile`_
@@ -26,6 +27,7 @@ Morten
 .. _Musings: musings
 .. _`Interrail 2009`: interrail2009
 .. _`LinkedIn Profile`: https://www.linkedin.com/in/epcylon
+.. _`Facebook Profile`: https://facebook.com/epcylon
 .. _`Amazon.co.uk WishList`: https://www.amazon.co.uk/gp/registry/registry.html?id=2CAEB2ESNO73V&sort=priority&layout=compact
 .. _`GitHub projects`: https://github.com/mortenlj
 .. _`StackExchange profile`: https://stackexchange.com/users/25658/epcylon
