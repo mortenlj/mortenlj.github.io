@@ -39,23 +39,11 @@ Linn Ingrid
 
 * `Interrail 2009`_
 * `Linn Ingrids LinkedIn Profile`_
+* `Linn Ingrids Facebook Profile`_
+
 
 .. _`Linn Ingrids LinkedIn Profile`: https://www.linkedin.com/pub/linn-ingrid-bukve/4b/256/2a4
-
-
-Some games
-..........
-
-* Planetarion_
-* Dreamfall_
-* `Age of Conan: Hyborian Adventures`_
-
-.. _Planetarion: http://www.planetarion.com
-.. _Dreamfall: http://www.dreamfall.com
-.. _`Age of Conan: Hyborian Adventures`: http://www.ageofconan.com
-
-
-
+.. _`Linn Ingrids Facebook Profile`: https://www.facebook.com/libukve
 
 .. raw:: html
    :file: ga.inc
