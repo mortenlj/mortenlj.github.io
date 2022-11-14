@@ -7,3 +7,6 @@ uprecords.txt
 musings/*.html
 musings/index.rst
 *.iml
+images/
+mqtt-admin/
+tmp/
