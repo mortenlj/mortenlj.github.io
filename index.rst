@@ -24,6 +24,13 @@ Morten
 * `StackExchange profile`_
 * `Keybase profile`_
 
+.. image:: https://github-business-card.vercel.app/api/github?username=mortenlj&dark
+   :alt: My GitHub "business card"
+   :align: right
+   :target: `GitHub projects`_
+   :width: 500
+   :height: 262
+
 .. _Musings: musings
 .. _`Interrail 2009`: interrail2009
 .. _`LinkedIn Profile`: https://www.linkedin.com/in/epcylon
