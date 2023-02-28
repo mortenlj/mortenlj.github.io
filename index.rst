@@ -15,7 +15,6 @@ Links
 Morten
 ......
 
-* Musings_
 * `Interrail 2009`_
 * `LinkedIn Profile`_
 * `Facebook Profile`_
@@ -31,7 +30,6 @@ Morten
    :width: 500
    :height: 262
 
-.. _Musings: musings
 .. _`Interrail 2009`: interrail2009
 .. _`LinkedIn Profile`: https://www.linkedin.com/in/epcylon
 .. _`Facebook Profile`: https://facebook.com/epcylon
