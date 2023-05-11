@@ -49,6 +49,3 @@ Linn Ingrid
 
 .. _`Linn Ingrids LinkedIn Profile`: https://www.linkedin.com/pub/linn-ingrid-bukve/4b/256/2a4
 .. _`Linn Ingrids Facebook Profile`: https://www.facebook.com/libukve
-
-.. raw:: html
-   :file: ga.inc
