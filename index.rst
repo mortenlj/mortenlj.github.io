@@ -23,7 +23,7 @@ Morten
 * `StackExchange profile`_
 * `Keybase profile`_
 
-.. image:: https://github-business-card.vercel.app/api/github?username=mortenlj&dark
+.. image:: https://scastiel.dev/api/image/mortenlj?dark
    :alt: My GitHub "business card"
    :align: right
    :target: `GitHub projects`_
