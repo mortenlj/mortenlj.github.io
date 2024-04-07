@@ -36,7 +36,7 @@ jobs:
           python-version: "^3"
       - name: Render HTML
         run: |
-          apt-get install -y python3-docutils
+          sudo apt-get update && sudo apt-get install -y python3-docutils
           ./make_site.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
