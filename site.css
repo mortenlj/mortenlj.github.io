@@ -1,4 +1,4 @@
-@import url(//home.ibidem.no/voidspace.css);
+@import url(/voidspace.css);
 
 div.attention, div.caution, div.danger, div.error, div.hint,
 div.important, div.note, div.tip, div.warning, div.admonition,
@@ -38,30 +38,4 @@ hr {
 
 .row2 {
     background-color: lightgrey;
-}
-
-/* TV manager */
-@media screen and (max-width: 1024px) {
-    .tv-list {
-        list-style-type: none;
-        -webkit-padding-start: 0px;
-        -moz-padding-start: 0px;
-        -o-padding-start: 0px;
-        padding-start: 0px;
-        margin: 5px;
-    }
-
-    .tv-list a {
-        margin: 15px 5px;
-        font: bold 11px Arial;
-        text-decoration: none;
-        background-color: #EEEEEE;
-        color: #333333;
-        padding: 10px 15px 10px 15px;
-        border-top: 1px solid #CCCCCC;
-        border-right: 1px solid #333333;
-        border-bottom: 1px solid #333333;
-        border-left: 1px solid #CCCCCC;
-        display: inline-block;
-    }
 }
