@@ -9,7 +9,7 @@ import os
 import time
 from urllib.parse import quote
 
-rst2html = "rst2html.py -g -d -t -s --initial-header-level=2 --stylesheet=\"/site.css\" --link-stylesheet %s %s"
+rst2html = "rst2html -g -d -t -s --initial-header-level=2 --stylesheet=\"/site.css\" --link-stylesheet %s %s"
 
 
 def make_html():
